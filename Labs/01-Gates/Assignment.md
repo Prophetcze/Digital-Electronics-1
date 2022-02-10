@@ -4,7 +4,7 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![DeMorgan](Images/DeMorgan.jpg)
+   ![DeMorgan](Images/DeMorgan.JPG)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -42,7 +42,7 @@ end architecture dataflow;
 
 1. Distributive laws 
 
-   ![Distribution](Images/Distribution.jpg)
+   ![Distribution](Images/Distribution.JPG)
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
