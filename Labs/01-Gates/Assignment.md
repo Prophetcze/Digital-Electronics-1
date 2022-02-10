@@ -15,9 +15,9 @@
 ```vhdl
 architecture dataflow of demorgan is
 begin
-    f_o      <= -- WRITE YOUR CODE HERE
-    f_nand_o <= -- WRITE YOUR CODE HERE
-    f_nor_o  <= -- WRITE YOUR CODE HERE
+    f_o    	<= (not b_i and a_i) or (not c_i and not b_i);
+    fnand_o <= '1';
+    fnor_o 	<= '0';
 end architecture dataflow;
 ```
 
