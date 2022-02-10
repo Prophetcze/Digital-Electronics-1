@@ -4,7 +4,7 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![DeMorgan](/01-Gates/Images/DeMorgan.jpg)
+   ![DeMorgan](Images/DeMorgan.jpg)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -32,23 +32,23 @@ end architecture dataflow;
 
 4. Screenshot with simulated time waveforms.
 
-   ![EPWave_DeMorgan](/01-Gates/Images/EPWave_DeMorgan.png)
+   ![EPWave_DeMorgan](Images/EPWave_DeMorgan.png)
 
 5. Link to your public EDA Playground example:
 
-   [EDAPlayground](https://www.edaplayground.com/x/CxA9)
+   [DeMorgan's Law - EDA](https://www.edaplayground.com/x/CxA9)
 
 ### Distributive laws
 
 1. Distributive laws 
 
-   ![Distribution](/01-Gates/Images/Distribution.jpg)
+   ![Distribution](Images/Distribution.jpg)
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![EPWave_Distribution](/01-Gates/Images/EPWave_Distribution.png)
+   ![EPWave_Distribution](Images/EPWave_Distribution.png)
 
 3. Link to your public EDA Playground example:
 
-   [EDAPlayground](https://www.edaplayground.com/x/AWey)
+   [Distribution Law - EDA](https://www.edaplayground.com/x/AWey)
 
