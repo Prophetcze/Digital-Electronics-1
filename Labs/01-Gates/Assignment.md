@@ -4,7 +4,7 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![DeMorgan](Images/DeMorgan.JPG)
+   <img scr= "Images/DeMorgan.JPG" width=50% height=50%>
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
