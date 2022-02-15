@@ -1,4 +1,4 @@
-# Lab 2: YOUR_FIRSTNAME LASTNAME
+# Lab 2: Tomas Kristek 230278
 
 ### 2-bit comparator
 
