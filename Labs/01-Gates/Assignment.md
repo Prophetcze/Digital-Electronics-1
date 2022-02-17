@@ -4,7 +4,7 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![Logic function](images/equations.png)
+   <img src= "Images/DeMorgan.JPG" width=20% height=20%>
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -12,8 +12,13 @@
 architecture dataflow of demorgan is
 begin
     f_o    	<= (not b_i and a_i) or (not c_i and not b_i);
+<<<<<<< HEAD
     fnand_o 	<= '1';
     fnor_o 	<= '0';
+=======
+    fnand_o 	<= (not b_i nand a_i) nand (not c_i nand not b_i);
+    fnor_o 	<= (a_i nor not c_i) nor b_i;
+>>>>>>> f630bb2719eb0f8f3c3839e224215a90c362bbb2
 end architecture dataflow;
 ```
 
@@ -21,22 +26,34 @@ end architecture dataflow;
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f_NAND(c,b,a)** | **f_NOR(c,b,a)** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 |  |  |  |
-| 0 | 0 | 1 |  |  |  |
-| 0 | 1 | 0 |  |  |  |
-| 0 | 1 | 1 |  |  |  |
-| 1 | 0 | 0 |  |  |  |
-| 1 | 0 | 1 |  |  |  |
-| 1 | 1 | 0 |  |  |  |
-| 1 | 1 | 1 |  |  |  |
+| 0 | 0 | 0 | 1 | 1 | 1 |
+| 0 | 0 | 1 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 0 | 0 | 0 |
+| 1 | 1 | 1 | 0 | 0 | 0 |
+
+4. Screenshot with simulated time waveforms.
+
+   ![EPWave_DeMorgan](Images/EPWave_DeMorgan.png)
+
+5. Link to your public EDA Playground example:
+
+   [DeMorgan's Law - EDA](https://www.edaplayground.com/x/CxA9)
 
 ### Distributive laws
 
-1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
+1. Distributive laws 
 
-   ![your figure]()
+   <img src= "Images/Distribution.JPG" width=20% height=20%>
 
-2. Link to your public EDA Playground example:
+2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   ![EPWave_Distribution](Images/EPWave_Distribution.png)
+
+3. Link to your public EDA Playground example:
+
+   [Distribution Law - EDA](https://www.edaplayground.com/x/AWey)
 
