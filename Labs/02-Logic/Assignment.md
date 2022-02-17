@@ -28,16 +28,23 @@
         -- Report a note at the beginning of stimulus process
         report "Stimulus process started" severity note;
 
-        -- First test case
-        s_b <= "BCD_OF_YOUR_SECOND_LAST_ID_DIGIT";
-        s_a <= "BCD_OF_YOUR_LAST_ID_DIGIT";
-        wait for 100 ns;
+        -- First test case, 230278 (a = 7, b = 8)
+        s_b <= "1000"; s_a <= "0111"; wait for 100 ns;
         -- Expected output
-        assert ((s_B_greater_A = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_equals_A  = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_less_A    = 'WRITE_CORRECT_VALUE_HERE'))
+        assert ((s_B_greater_A = '1') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '0'))
         -- If false, then report an error
-        report "Input combination COMPLETE_THIS_TEXT FAILED" severity error;
+        report "Input combination 1000, 0111 FAILED" severity error;
+
+        -- Second test case, (a = 10, b = 4)
+        s_b <= "1010"; s_a <= "0100"; wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A  = '1') and
+                (s_B_less_A    = '0'))
+        -- If false, then report an error
+        report "Input combination 1010, 0100 FAILED" severity error;
 
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
@@ -47,9 +54,9 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   ![4-bit_Comparator - Log](Images/Log.png)
 
 3. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   [4-bit_Comparator - EDA](https://www.edaplayground.com/x/tmX7)
 
