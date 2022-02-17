@@ -10,7 +10,7 @@
 
    Less than:
 
-   <img src= "Images/K-map_Less.JPG" width=30% height=30%>
+   <img src= "Images/K-map_Less.JPG" width=20% height=20%>
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
