@@ -2,13 +2,12 @@
 
 1. Slide switches
 
-Slide switches generate constant high or low inputs depending on their position.
+    Slide switches generate constant high or low inputs depending on their position.
 
 2. LED configuration
 
-The sixteen individual high-efficiency LEDs are anode-connected to the FPGA via 330-ohm resistors, so they will turn on when a logic high voltage is applied to their respective I/O pin.
+    The sixteen individual high-efficiency LEDs are anode-connected to the FPGA via 330-ohm resistors, so they will turn on when a logic high voltage is applied to their       respective I/O pin.
 
 ### Schematic of PIN Connection
 
-![PIN_Connection](Images/Nexys_A7_connection.png)
-
+<img src= "Images/Nexys_A7_connection.png" width=50% height=50%>
