@@ -10,5 +10,5 @@ The sixteen individual high-efficiency LEDs are anode-connected to the FPGA via 
 
 ### Schematic of PIN Connection
 
-![PIN_Connection](images/Nexys_A7_connection.png)
+![PIN_Connection](Images/Nexys_A7_connection.png)
 
