@@ -6,15 +6,15 @@
 
    Greater than:
 
-   ![K-maps](images/kmap_empty.png)
+   <img src= "Images/K-map_Greater.JPG" width=30% height=30%>
 
    Less than:
 
-   ![K-maps](images/kmap_empty.png)
+   <img src= "Images/K-map_Less.JPG" width=30% height=30%>
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   ![Logic functions](images/comparator_min.png)
+   <img src= "Images/Sop_PoS.JPG" width=50% height=50%>
 
 ### 4-bit comparator
 
@@ -54,9 +54,9 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![4-bit_Comparator - Log](Images/Log.png)
+   ![4-bit Comparator - Log](Images/Log.png)
 
 3. Link to your public EDA Playground example:
 
-   [4-bit_Comparator - EDA](https://www.edaplayground.com/x/tmX7)
+   [4-bit Comparator - EDA](https://www.edaplayground.com/x/tmX7)
 
