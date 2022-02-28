@@ -18,7 +18,11 @@ end architecture Behavioral;
 
    ![EPWave_Multiplexer](Images/EPWave_Multiplexer.png)
 
-3. Listing of pin assignments for the Nexys A7 board in `nexys-a7-50t.xdc`. **DO NOT list** the whole file, just your switch and LED settings.
+3. Link to your public EDA Playground example:
+
+   [Three-bit wide 4-to1 multiplexer - EDA](https://www.edaplayground.com/x/npRG)
+
+4. Listing of pin assignments for the Nexys A7 board in `nexys-a7-50t.xdc`. **DO NOT list** the whole file, just your switch and LED settings.
 
 ```shell
 ##Switches
