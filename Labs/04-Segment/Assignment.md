@@ -1,4 +1,4 @@
-# Lab 4: YOUR_FIRSTNAME LASTNAME
+# Lab 4: Tomas Kristek 230278
 
 ### Seven-segment display decoder
 
