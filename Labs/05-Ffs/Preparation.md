@@ -12,7 +12,7 @@
 -->
 
    | **clk** | **d** | **q(n+1)** | **Comments** |
-   | :-: | :-: | :-: | :-: | :-- |
+   | :-: | :-: | :-: | :-: |
    | 0 | x | q(n) | Hold values (No change) |
    | 1 | x | q(n) | Hold values (No change) |
    | ![rising](Images/eq_uparrow.png) | 0 | 0 | Sampled at rising edge |
