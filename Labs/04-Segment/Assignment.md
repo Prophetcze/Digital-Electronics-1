@@ -107,14 +107,18 @@
     -- Experiments on your own: LED(7:4) indicators
 
     -- Turn LED(4) on if input value is equal to 0, ie "0000"
-    -- WRITE YOUR CODE HERE
+    LED[4] <= '1' when (hex_i = "0000") else '0';
     
     -- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
-    -- WRITE YOUR CODE HERE
+    LED[5] <= '1' when (hex_i > "1001") else '0';
     
     -- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
-    -- WRITE YOUR CODE HERE
+    LED[6] <= '0' xor hex_i(0);
     
     -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
-    -- WRITE YOUR CODE HERE
+    LED[7] <= '1' when (hex_i = "0001") else
+    		 '1' when (hex_i = "0010") else
+             '1' when (hex_i = "0100") else
+             '1' when (hex_i = "1000") else
+             '0';
 ```
