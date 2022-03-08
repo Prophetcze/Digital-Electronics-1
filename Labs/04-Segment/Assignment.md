@@ -114,7 +114,7 @@
     
     -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
     LED(7) <= '1' when (hex_i = "0001") else
-    		  '1' when (hex_i = "0010") else
+              '1' when (hex_i = "0010") else
               '1' when (hex_i = "0100") else
               '1' when (hex_i = "1000") else
               '0';
