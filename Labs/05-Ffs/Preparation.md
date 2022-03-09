@@ -8,8 +8,8 @@
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: |
    | ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | q(n+1) has the same level as d |
-   | ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | q(n+1) has the same level as d |
-   | ![rising](Images/eq_uparrow.png) | 1 | 0 | 0 | Sampled at rising edge |
+   | ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | q(n+1) has the same level as d |
+   | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Sampled at rising edge |
    | ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | Sampled at rising edge |
 
    **JK-type FF**
