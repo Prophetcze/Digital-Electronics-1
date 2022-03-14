@@ -6,7 +6,7 @@
 
 ```vhdl
 architecture Behavioral of t_ff_rst is
-    signal s_q : std_logic;
+    signal s_q : std_logic;       -- Signal defined for previous state(need for T FF)
 begin
     --------------------------------------------------------
     -- p_t_ff_rst:
@@ -21,14 +21,14 @@ begin
                 s_q   <= '0';
             elsif (t = '0') then
                 s_q   <= s_q;
-            else -- t = '1'
+            else                  -- t = '1'
                 s_q   <= not s_q;
             end if;
         end if;
     end process p_t_ff_rst;
     
-    q     <= s_q;
-    q_bar <= not s_q;
+    q     <= s_q;                 -- Signal assigned to q
+    q_bar <= not s_q;             -- Not of ignal assigned to q
 end architecture Behavioral;
 ```
 
