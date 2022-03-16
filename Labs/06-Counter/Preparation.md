@@ -6,7 +6,7 @@ The Nexys A7 board provides five push buttons for user applications.
 
 <img src= "Images/Nexys_A7_connection.png" width=50% height=50%>
 
-      They are connected via pull down resistors. When pressed, that means logic value of 1. When not pressed, we have logic value of 0.
+They are connected via pull down resistors. When pressed, that means logic value of 1. When not pressed, we have logic value of 0.
 
 2. Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contain time intervals 2&nbsp;ms, 4&nbsp;ms, 10&nbsp;ms, 250&nbsp;ms, 500&nbsp;ms, and 1&nbsp;s. Write values in decimal, binary, and hexadecimal forms.
 
