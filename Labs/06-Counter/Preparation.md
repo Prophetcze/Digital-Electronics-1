@@ -4,7 +4,7 @@ The Nexys A7 board provides five push buttons for user applications.
 
 1. See schematic of the Nexys A7 board and find out the connection of these push buttons, ie to which FPGA pins are connected and how. What logic/voltage value do the buttons generate when not pressed and what value when the buttons are pressed? Draw the schematic with push buttons.
 
-  They are connected via pull down resistors. When pressed, that means logic value of 1. When not pressed, we have logic value of 0.
+   They are connected via pull down resistors. When pressed, that means logic value of 1. When not pressed, we have logic value of 0.
 
 <img src= "Images/Nexys_A7_connection.png" width=50% height=50%>  
 
