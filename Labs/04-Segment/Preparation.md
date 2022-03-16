@@ -6,6 +6,7 @@ The Nexys A7 board provides two four-digit common anode seven-segment LED displa
 
 <img src= "Images/Nexys_A7_connection.png" width=50% height=50%>
 
+
 2. Complete the decoder truth table for **common anode** 7-segment display.
 
    | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
