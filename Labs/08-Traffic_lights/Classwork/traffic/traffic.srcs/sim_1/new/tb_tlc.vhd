@@ -67,7 +67,7 @@ begin
         -- Reset activated
         s_reset <= '1'; wait for 500 ns;
         -- Reset deactivated
-        s_reset <= '0'; wait for 5000 ns;
+        s_reset <= '0'; wait for 3000 ns;
         -- Reset activated
         s_reset <= '1'; wait for 1000 ns;
         -- Reset deactivated
