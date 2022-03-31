@@ -26,13 +26,19 @@
                         dig_o <= "0111";
 
                     when "10" =>
-                        -- WRITE YOUR CODE HERE
+                        s_hex <= data2_i;
+                        dp_o  <= dp_i(2);
+                        dig_o <= "1011";
 
                     when "01" =>
-                        -- WRITE YOUR CODE HERE
+                        s_hex <= data1_i;
+                        dp_o  <= dp_i(1);
+                        dig_o <= "1101";
 
                     when others =>
-                        -- WRITE YOUR CODE HERE
+                        s_hex <= data0_i;
+                        dp_o  <= dp_i(0);
+                        dig_o <= "1110";
                 end case;
             end if;
         end if;
@@ -41,10 +47,10 @@
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![EPWave_Driver](Images/EPWave_Driver.png)
 
 ### Eight-digit driver
 
-1. Image of the 8-digit driver's block schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
+1. Image of the 8-digit driver's block schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components, and internal signals!
 
-   ![your figure]()
+   ![Driver_7seg_8digits](Images/Driver_7seg_8digits.JPG)
