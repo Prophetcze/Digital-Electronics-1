@@ -77,11 +77,15 @@ begin
     begin
         s_reset <= '0'; wait for 12 ns;
         -- Reset activated
+<<<<<<< HEAD
+        s_reset <= '1'; wait for 52 ns;
+=======
         s_reset <= '1'; wait for 50 ns;
         -- Reset deactivated
         s_reset <= '0'; wait for 340 ns;
         -- Reset activated
         s_reset <= '1'; wait for 60 ns;
+>>>>>>> 90947b603939f58de9298dddc379cad7010622ff
         -- Reset deactivated
         s_reset <= '0';
         wait;

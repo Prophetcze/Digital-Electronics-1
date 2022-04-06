@@ -54,7 +54,11 @@ begin
     -- an enable pulse every 4 ms
     clk_en0 : entity work.clock_enable
         generic map(
+<<<<<<< HEAD
+            g_MAX => 400000 -- FOR SIMULATION SET TO 4 !!!!!!!!
+=======
             g_MAX => 4 -- FOR SIMULATION SET TO 4 !!!!!!!!
+>>>>>>> 90947b603939f58de9298dddc379cad7010622ff
         )
         port map(
             clk =>   clk,
