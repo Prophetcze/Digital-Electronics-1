@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr  2 16:32:36 2022
+# Process ID: 6748
+# Current directory: C:/Users/tomas/Documents/GitHub/Digital-Electronics-1/Labs/07-Display_driver/Classwork/display_driver/display_driver.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/tomas/Documents/GitHub/Digital-Electronics-1/Labs/07-Display_driver/Classwork/display_driver/display_driver.sim/sim_1/behav/xsim/xsim.dir/tb_driver_7seg_4digits_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/tomas/Documents/GitHub/Digital-Electronics-1/Labs/07-Display_driver/Classwork/display_driver/display_driver.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/tomas/Documents/GitHub/Digital-Electronics-1/Labs/07-Display_driver/Classwork/display_driver/display_driver.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/tomas/Documents/GitHub/Digital-Electronics-1/Labs/07-Display_driver/Classwork/display_driver/display_driver.sim/sim_1/behav/xsim/xsim.dir/tb_driver_7seg_4digits_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Apr  2 16:32:38 2022...
